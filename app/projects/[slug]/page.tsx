@@ -26,7 +26,7 @@ export async function generateStaticParams(): Promise<Props["params"][]> {
 
 export default async function PostPage({ params }: Props) {
   const slug = params?.slug;
-  const project = allProjects.find((project) => project.slug === slug);
+  const project = allProjects.find((project) => project?.slug === slug);
 
   if (!project) {
     notFound();
@@ -38,10 +38,10 @@ export default async function PostPage({ params }: Props) {
   return (
     <div className="bg-zinc-50 min-h-screen">
       <Header project={project} views={views} />
-      <ReportView slug={project.slug} />
+      <ReportView slug={project?.slug} />
 
       <article className="px-4 py-12 mx-auto prose prose-zinc prose-quoteless">
-        <Mdx code={project.body.code} />
+        <Mdx code={project?.body.code} />
       </article>
     </div>
   );
