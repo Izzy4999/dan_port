@@ -5,6 +5,7 @@ import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://portfolio-new-theta-amber.vercel.app"),
   title: {
     default: "fiittech.com",
     template: "%s |",
