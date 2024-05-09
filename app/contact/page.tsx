@@ -15,7 +15,7 @@ const socials = [
     icon: <Mail size={20} />,
     href: "mailto:favour.israel.taiwo@outlook.com",
     label: "Email",
-    handle: "dev@chronark.com",
+    handle: "favour.israel.taiwo@outlook.com",
   },
   {
     icon: <Github size={20} />,
