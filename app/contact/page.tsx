@@ -1,5 +1,5 @@
 "use client";
-import { Github, Mail, Twitter, Linkedin } from "lucide-react";
+import { GraduationCap , Mail, Twitter, Linkedin } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -7,21 +7,21 @@ import { Card } from "../components/card";
 const socials = [
   {
     icon: <Linkedin size={20} />,
-    href: "https://www.linkedin.com/in/favour-taiwo-8b9b5a200",
+    href: "https://www.linkedin.com/in/daniel-ali-a0873b17b",
     label: "Linkedin",
-    handle: "@Favour Israel",
+    handle: "@Daniel Ali Kayode",
   },
   {
     icon: <Mail size={20} />,
-    href: "mailto:favour.israel.taiwo@outlook.com",
+    href: "mailto:alidanielkayode@gmail.com",
     label: "Email",
-    handle: "favour.israel.taiwo@outlook.com",
+    handle: "alidanielkayode@gmail.com",
   },
   {
-    icon: <Github size={20} />,
-    href: "https://github.com/Izzy4999",
-    label: "Github",
-    handle: "Izzy4999",
+    icon: <GraduationCap size={20} />,
+    href: "https://grabcad.com/daniel.kayode.ali-1",
+    label: "GrabCAD",
+    handle: "Daniel",
   },
 ];
 
